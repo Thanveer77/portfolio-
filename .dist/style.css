@@ -1,0 +1,330 @@
+/* universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+    color: #868e96;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* main container */
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    margin: 3px;
+    
+
+}
+
+/* content section */
+
+.content {
+  
+    margin-left: 19%;
+    width: 80%;
+    padding: 50px;
+    background-color: #fff;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+/* side bar */
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bd5d38;
+    color:white;
+    width: 22%;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    height: 100vh;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+   
+
+/* profile image */
+
+.image-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid #cb7c5c;
+    background-color: #bd5d38;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* menu section */
+.nav-menu ul {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+   
+}
+
+.nav-menu ul li {
+    list-style-type: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    
+    color: rgba(255, 255, 255, .5);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', serif;
+}
+.nav-menu ul li a:hover{
+    color: rgba(255, 255, 255, .75);
+    
+
+}
+.nav-menu ul li a:focus{
+    color: white;
+}
+
+
+
+
+/* first page ABOUT */
+
+#about {
+    font-size: 16px;
+    line-height: 1.6;
+    height: 100vh;
+
+}
+
+.text-primary {
+    color: #bd5d38;
+}
+
+.sub-heading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 1.35rem;
+    margin-left: 30px;
+    margin-bottom: 3rem;
+}
+
+.sub-heading a {
+    color: #bd5d38;
+    text-decoration: none;
+}
+
+
+.sub-heading a:hover {
+    color: #824027;
+    text-decoration: underline;
+}
+ 
+  /* icons */
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #495057;
+    color: white;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+    /* padding-bottom: 60px; */
+}
+
+.social-icon:hover {
+    background-color: #bd5d38;
+}
+
+/* h1 tag design */
+
+.content h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+
+    font-weight: bold;
+    color: rgb(36, 34, 34);
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed', serif;
+    padding-top: 70px;
+}
+
+/* h2 tag design */
+
+.content h2 {
+    font-family: 'Saira Extra Condensed', serif;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #343a40;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+/* h3 tag design */
+
+.content h3 {
+    font-size: 1.75rem;
+    margin-left: 30px;
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+#experience{
+    padding-top: 50px;
+}
+.experience-sub-heading{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 1.35rem;
+    margin-left: 30px;
+    margin-bottom: 1rem;
+}
+#education{
+    height: 100vh;
+    padding-top: 50px;
+}
+
+
+.edutitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.date {
+    color: #bd5d38;
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-family: 'Open Sans', serif;
+}
+
+#experience p{
+    padding-right: 18.5rem;
+}
+#skills{
+    height: 100vh;
+    padding-top: 50px;
+}
+.skillicon {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3rem;
+    color: #868e96;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.skillicon i:hover {
+    color: #bd5d38;
+}
+
+
+
+.workflowlist li {
+    color: #868e96;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    
+
+}
+.workflowlist i {
+   margin-right: 10px;
+
+}
+
+.para{
+    margin-bottom: 1rem;
+}
+
+
+.content ul {
+    font-size: 15px;
+    color: rgb(36, 33, 33);
+    list-style-type: none;
+}
+
+.content p {
+    margin-left: 30px;
+    color: #868e96;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#interests{
+    height: 100vh;
+    padding-top: 150px;
+}
+
+/* last page .awards */
+#awards {
+    height: 100vh;
+    padding-top: 130px;
+    line-height: 1.6;
+}
+
+#awards ul li {
+    color: #868e96;
+    font-family: 'Open Sans', serif;
+    margin-left: 30px;
+   
+}
+
+.fa-trophy {
+    font-size: 14px;
+    color: #ffc107;
+    margin-right: 9px;
+}
+
+ /* line */
+.hr {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 1px solid #dee2e6;
+
+
+}
